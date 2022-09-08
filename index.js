@@ -1,4 +1,4 @@
-console.log('Starting...')
+console.log('Starting Amal-Bot...')
 
 import { join, dirname } from 'path'
 import { createRequire } from "module";
@@ -16,7 +16,7 @@ const { name, author } = require(join(__dirname, './package.json')) // https://w
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say('DRIPS', {
+say('Amal-Bot', {
   font: 'chrome',
   align: 'center',
   gradient: ['green', 'green']
