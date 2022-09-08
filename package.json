@@ -1,6 +1,6 @@
 {
-    "name": "YOUR NAME",
-    "version": "7.0.0",
+    "name": "Amal-Bot",
+    "version": "1.0.0",
     "description": "Customizable WhatsApp Bot",
     "main": "index.js",
     "type": "module",
@@ -14,16 +14,16 @@
         "cli": "node . --optimize_for_size --max_old_space_size=460 index.js",
         "db": "node . --autocleartmp --db 'mongodb+srv://ozan:Akhmad6825@cluster0.mflne.mongodb.net/zabotv6?retryWrites=true&w=majority'"
     },
-    "homepage": "https://github.com/zim-bot",
+    "homepage": "https://github.com/Amal-Zer",
     "author": {
-        "name": "YOUR NAME"
+        "name": "AMAL SER"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/zim-bot"
+        "url": "git+https://github.com/Amal-Zer/Amal-Bot"
     },
     "bugs": {
-        "url": "https://github.com/zim-bot"
+        "url": "https://github.com/Amal-Zer"
     },
     "license": "MIT",
     "dependencies": {
