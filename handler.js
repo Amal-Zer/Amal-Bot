@@ -696,7 +696,7 @@ To turn off this feature, type
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: 'This command can only bee used by  _*BOT OWWNER!1!1!*_',
+        rowner: 'This command can only bee used by  _*BOT OWNER!1!1!*_',
         owner: 'This command can only be used by _*bot Owner*_!',
         mods: 'This command can only be used by  _*Moderator*_ !',
         premium: 'This command can only be used by member _*Premium*_ !',
@@ -704,7 +704,7 @@ global.dfail = (type, m, conn) => {
         private: 'This command can only be used in Private!',
         admin: 'Thi command is only for *Admin* grup!',
         botAdmin: 'Give  BOT  *Adminship* to use this command!',
-        unreg: 'Please register to  bot to use this feature by typing:\n\n*#reg name.age*\n\nExample: *#reg Drips.16*',
+        unreg: 'Please register to  bot to use this feature by typing:\n\n*#reg name.age*\n\nExample: *#reg Amal.17*',
         restrict: 'This feature *disable*!'
     }[type]
     if (msg) return m.reply(msg)
