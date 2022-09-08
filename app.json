@@ -1,8 +1,8 @@
 {
-  "name": "Zim Bot Inc",
+  "name": "Amal-Bot",
   "description": "whatsapp md bot build with nodejs",
-  "repository": "https://github.com/zim-bot/zim-bot-md",
-  "logo": "https://i.imgur.com/rANDwCP.jpeg",
+  "repository": "https://github.com/Amal-Zer/Amal-Bot",
+  "logo": "https://telegra.ph/file/762990aa7758b03043757.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [
     {
@@ -10,9 +10,6 @@
     },
     {
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    },
-    {
-      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick"
     },
     {
       "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
